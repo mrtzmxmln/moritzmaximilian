@@ -1,0 +1,25 @@
+:root {
+    --color_A: #000000;
+    --color_B: #ffffff;
+    --color_AccentA: #FF0800;
+    --color_AccentB: #F28F3B;
+    --color_Link: #245EFF;
+}
+
+.colorSetA {
+    background-color: var(--color_A);
+    color: var(--color_B);
+}
+
+.colorSetB {
+    background-color: var(--color_B);
+    color: var(--color_A);
+}
+
+.colorAccentA {
+    color: var(--color_AccentA);
+}
+
+.colorAccentB {
+    color: var(--color_AccentB);
+}
