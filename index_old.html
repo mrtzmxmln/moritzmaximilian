@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moritz Maximilian</title>
+    <meta name=author content="Moritz Maximilian">
+    <meta name="description" content="Personal Portfolio | Web Design | Events | Artist">
+    <meta name="keywords" content="Moritz Maximilian, Web Design, WebDev, Web Development, Osnabrück, Osnabrueck, Events, Piknic Elektronic">
+    <meta property="og:image" content="https://moritzmaximilian.de/images/img_Intro.webp">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/ico" href="./logo.ico">
+
+</head>
+
+<body onload="loadCheck()">
+
+    <div id="Loader" class="loadingScreen">
+        <div class="loader">
+            <div class="loaderB"></div>
+        </div>
+    </div>
+    
+    <div id="Sidebar">
+        <div id="bar1" class="bar" onclick="scrollIntro()">M</div>
+        <div id="bar2" class="bar" onclick="scrollDiploma()">E</div>
+        <div id="bar3" class="bar" onclick="scrollEvent()">P</div>
+        <div id="bar4" class="bar" onclick="scrollWebDev()">W</div>
+        <div id="bar5" class="bar" onclick="scrollArtist()">A</div>
+    </div>
+
+    <div id="Intro" class="contentDiv">
+        <div class="container">
+
+            <div class="contentDivText fadeIntro">
+
+                <div class="heading">
+                    <h1>Moritz Maximilian</h1>
+                </div>
+
+                <p>
+                    hi there, welcome to my portfolio - find out about my educational background, the events i do, my passion, me as an artist and where things are going - feel free to contact me if you have any questions or are interested in working with me
+                </p>
+
+                <div class="buttonsDiv">
+                    <button onclick="sendMail()">Mail</button>
+                    <button onclick="openLinkedIn()">LinkedIn</button>
+                    <button onclick="openXing()">Xing</button>
+                    <button onclick="openInstagram()">Instagram</button>
+                </div>
+
+            </div>
+
+            <div class="contentDivImg fadeShort">
+                <img src="./images/img_Intro.webp" alt="profile image">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="Diploma" class="contentDiv">
+        <div class="container">
+
+            <div class="contentDivImg">
+                <img src="./images/img_Diploma_B.webp" alt="" class="diplomaImg">
+            </div>
+
+            <div class="contentDivText fadeRight">
+
+                <div class="heading">
+                    <h2>Event Salesman Diploma</h2>
+                </div>
+
+                <p>
+                    I graduated 2018 - While studying I completed my first internship at <a href="https://veranstaltungen-technik.de" target="_blank">Koehne Veranstaltungen & Technik</a>  and a second one at <a href="https://www.facebook.com/clubdrvogel" target="_blank">NBV Club GmbH</a> - We had a blast organising our class project 'Querdenker - Das Schulduell' and furthermore lucky me was chosen to have a talk with industry leading CEOs, to name some noteworthy happenings
+                </p>
+
+                <div class="buttonsDiv">
+                    <button onclick="openAcademy()">Academy</button>
+                    <button onclick="openProject()">Project</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Event" class="contentDiv">
+        <div class="container">
+
+            <div class="contentDivText fadeLeft">
+
+                <div class="heading">
+                    <h2>Event Manager & Host</h2>
+                </div>
+
+                <p>
+                    In 2022 I gathered with some friends, to translate the idea of creating an open and safe space for people interested in experimental, avant-garde electronic music and the scene around it, into reality - As a collective we managed and hosted three outstanding events with great success for art and culture in the city of Osnabrueck and beyond - Have you been there?
+                </p>
+
+                <div class="buttonsDiv">
+                    <button onclick="openPiknic()">Piknic Elektronic</button>
+                </div>
+
+            </div>
+
+            <div class="contentDivImg">
+                <img src="./images/img_Event.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="WebDev" class="contentDiv">
+        <div class="container">
+
+            <div class="contentDivImg">
+                <img src="./images/img_WebDev.webp" alt="">
+            </div>
+
+            <div class="contentDivText fadeRight">
+
+                <div class="heading">
+                    <h2>Web Developer</h2>
+                </div>
+
+                <p>
+                    web devlopment is my passion - all my projects are based on an indvidual way of finding just the right design by creating a unique customer journey - throughout the whole creation process i maintain a casual and open minded vibe to create outstanding results and therewith never seen before user experiences - check out some of my handmade, modern & minimalistic web designs down below
+                </p>
+
+                <div class="buttonsDiv">
+                    <button onclick="openUfo()">risingufo.de</button>
+                    <button onclick="openLeni()">homebyleni.de</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="Artist" class="contentDiv bottomDiv">
+        <div class="container">
+
+            <div class="contentDivText fadeLeft">
+
+                <div class="heading">
+                    <h2>DJ & Artist</h2>
+                </div>
+
+                <p>
+                    Since my youth I dreamed about leading gathered souls into emotional heights with the power of music because for me <i> "music is the answer" </i> - What shall I say… some dreams come true if you work hard for it while withstanding all the headwind!
+                </p>
+
+                <div class="buttonsDiv">
+                    <button onclick="openSoundCloud()">SoundCloud</button>
+                    <button onclick="openResident()">Resident Advisor</button>
+                </div>
+                
+            </div>
+
+            <div class="contentDivImg">
+                <img src="./images/img_Artist.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="Footer" class="contentDiv">
+        <div class="container">
+            <a href="./imprint.html">Imprint</a>
+            <a href="">Privacy Policy</a>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
