@@ -1,11 +1,12 @@
 /*-- ELEMENTS --*/
 body {
     margin: 0;
+    background-color: black;
 }
 
 section {
     width: 100%;
-    min-height: fit-content;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -24,20 +25,22 @@ p {
 /*-- GENERAL STYLE --*/
 .container {
     max-width: 1080px;
+}
+
+section .container {
     width: 90%;
 
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    section .container {
         flex-wrap: wrap;
         justify-content: center;
     }
