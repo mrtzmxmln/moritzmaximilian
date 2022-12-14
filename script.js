@@ -2,6 +2,27 @@ const pageTitle = document.title;
 const imgSrcA = "./images/img_Diploma_A.webp";
 const imgSrcB = "./images/img_Diploma_B.webp";
 
+/*-- IMG CHANGES --*/
+function changeDiplomaImg() {
+    var diplomaImg = document.getElementById("DiplomaImg");
+
+    if(diplomaImg.src.includes("img_Diploma_A.webp")) {
+        diplomaImg.src = "./images/img_Diploma_B.webp";
+    } else if(diplomaImg.src.includes("img_Diploma_B.webp")) {
+        diplomaImg.src = "./images/img_Diploma_A.webp";
+    }
+}
+
+function changeRobinsonImg() {
+    var robinsonImg = document.getElementById("RobinsonImg");
+
+    if(robinsonImg.src.includes("img_Robinson_A")) {
+        robinsonImg.src = "./images/img_Robinson_B.JPG";
+    } else if(robinsonImg.src.includes("img_Robinson_B")) {
+        robinsonImg.src = "./images/img_Robinson_A.jpeg";
+    }
+}
+
 /*-- ANIMATIONS --*/
 function fadeShort() {
     var fadeShort = document.querySelector(".fadeShort");

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moritz Maximilian</title>
 
-    <link rel="stylesheet" href="./styles/style_general.css">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/style_navbar.css">
     <link rel="stylesheet" href="./styles/style_colors.css">
     <link rel="stylesheet" href="./styles/style_font.css">
@@ -32,7 +33,7 @@
     </div>
 
 
-    <!-- Main Content -->
+    <!-- Portfolio -->
     <section id="Portfolio" class="colorSetA">
         <div class="container">
 
@@ -42,17 +43,26 @@
             </div>
 
             <div class="imgBox">
-                <img src="./images/img_Portfolio.webp" alt="">
+                <img 
+                    id="PortfolioImg"
+                    onclick=""
+                    src="./images/img_Portfolio.webp"
+                    alt="">
             </div>
             
         </div>
     </section>
 
+    <!-- Diploma -->
     <section id="Diploma" class="colorSetB">
         <div class="container">
 
             <div class="imgBox">
-                <img src="./images/img_Diploma_B.webp" alt="">
+                <img 
+                    id="DiplomaImg"
+                    onclick="changeDiplomaImg()"
+                    src="./images/img_Diploma_B.webp" 
+                    alt="">
             </div>
 
             <div class="textBox">
@@ -65,43 +75,42 @@
         </div>
     </section>
 
+    <!-- Experience Robinson-->
     <section id="Experience" class="colorSetA">
-
-        <h1>Experience</h1>
         <div class="container">
 
-            <div class="imgBoxContainer">
-                <div class="imgBox">
-                    <img src="./images/img_Robinson_A.jpeg" alt="">
-                </div>
-    
-                <div class="imgBox">
-                    <img src="./images/img_Robinson_B.JPG" alt="">
-                </div>
-            </div>
-
             <div class="textBox">
-                <h1>Event Management</h1>
-                <h6>Robinson Club Quinta Da Ria, Portugal</h6>
+                <h3>Experience</h3>
+                <h1 style="margin-bottom: 6px;">Event Management</h1>
+                <h6 style="margin-top: 0px;">@ Robinson Club Quinta Da Ria, Portugal</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, accusamus. Illo ad ut pariatur blanditiis porro! Voluptatem repellat excepturi blanditiis animi molestias repellendus cupiditate obcaecati exercitationem voluptatum hic ipsa molestiae, nihil laboriosam quam error, asperiores a ut esse commodi minima?</p>
             </div>
 
-        </div>
-
-        <div class="container">
-
             <div class="imgBox">
+                <img
+                    id="RobinsonImg"
+                    onclick="changeRobinsonImg()"
+                    src="./images/img_Robinson_A.jpeg"
+                    alt="">
             </div>
 
-            <div class="textBox">
-                <h1>Pro Audio Equipment Sales</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic id ex soluta consequuntur magni minima velit numquam quibusdam iste explicabo reprehenderit rerum quaerat commodi voluptatem recusandae, ipsa assumenda libero voluptatibus quas harum aspernatur eum animi. Illo dolorum asperiores consequuntur voluptatem, eos impedit minima vero hic natus, quidem libero adipisci.</p>
-            </div>
-
-        </div>
-        
+        </div> 
     </section>
 
+    <!-- Event -->
+    <section id="Event" class="colorSetB">
+        <div class="container">
+
+            <div class="textBox">
+
+            </div>
+
+            <div class="imgBox">
+                
+            </div>
+
+        </div>
+    </section>
 
     <script src="./script.js"></script>
 </body>

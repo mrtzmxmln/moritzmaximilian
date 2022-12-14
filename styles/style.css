@@ -24,12 +24,11 @@ p {
 
 /*-- GENERAL STYLE --*/
 .container {
+    width: 90%;
     max-width: 1080px;
 }
 
 section .container {
-    width: 90%;
-
     padding-top: 20px;
     padding-bottom: 40px;
 
@@ -47,14 +46,27 @@ section .container {
 }
 
 .textBox {
+    min-width: 400px;
     max-width: 600px;
 
     display: flex;
     flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+    .textBox {
+        max-width: none;
+    }
+}
+
 .imgBox {
-    max-width: 500px;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .imgBox {
+        max-width: none;
+    }
 }
 
 .imgBox img {
