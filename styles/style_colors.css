@@ -1,9 +1,18 @@
 :root {
-    --color_A: #000000;
+
+    /*
+    --color_A: grey;
     --color_B: #ffffff;
     --color_AccentA: #FF0800;
     --color_AccentB: #F28F3B;
     --color_Link: #245EFF;
+    */
+    
+    --color_A: #252422;
+    --color_B: #E0DFD5;
+    --color_AccentA: #ED6A5A;
+    --color_AccentB: #0094C6;
+    --color_Link: #B497D6;
 }
 
 .colorSetA {

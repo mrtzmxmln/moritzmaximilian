@@ -21,23 +21,47 @@
     <!-- NavBar-->
     <div id="navigation" class="navbar">
         <div class="container">
+
             <div class="navLogo">
-                <img src="./logo.ico" alt="">
+                Moritz Maximilian
+                <!-- <img src="./logo.ico" alt=""> -->
             </div>
+
             <nav>
-                <div class="navLink">Portfolio</div>
-                <div class="navLink">Rental</div>
-                <div class="navLink">Events</div>
+
+                <div 
+                    id="PortfolioLink" 
+                    class="navLink"
+                    onclick="openNavLink(this.id)">
+                    Portfolio
+                </div>
+
+                <div
+                    id="RentalLink"
+                    class="navLink"
+                    onclick="openNavLink(this.id)">
+                    Rental
+                </div>
+
+                <div
+                    id="EventsLink"
+                    class="navLink"
+                    onclick="openNavLink(this.id)">
+                    Events
+                </div>
+
             </nav>
+
         </div>
     </div>
 
 
     <!-- Portfolio -->
-    <section id="Portfolio" class="colorSetA">
+    <section id="Portfolio" class="colorSetB">
         <div class="container">
 
             <div class="textBox">
+                <h3>portfolio _</h3>
                 <h1>Moritz Maximilian</h1>
                 <p>hi there, welcome to my portfolio - find out about my educational background, the events i do, my passion, me as an artist and where things are going - feel free to contact me if you have any questions or are interested in working with me</p>
             </div>
@@ -51,10 +75,7 @@
             </div>
             
         </div>
-    </section>
 
-    <!-- Diploma -->
-    <section id="Diploma" class="colorSetB">
         <div class="container">
 
             <div class="imgBox">
@@ -66,7 +87,7 @@
             </div>
 
             <div class="textBox">
-                <h3>Educational Background</h3>
+                <h3>education _</h3>
                 <h1>Event Salesman Diploma</h1>
                 <p> I graduated 2018 - While studying I completed my first internship at <a href="https://veranstaltungen-technik.de" target="_blank">Koehne Veranstaltungen & Technik</a>  and a second one at <a href="https://www.facebook.com/clubdrvogel" target="_blank">NBV Club GmbH</a> - We had a blast organising our class project 'Querdenker - Das Schulduell' and furthermore lucky me was chosen to have a talk with industry leading CEOs, to name some noteworthy happenings
                 </p>
@@ -75,16 +96,16 @@
         </div>
     </section>
 
-    <!-- Experience Robinson-->
-    <section id="Experience" class="colorSetA">
+    <!-- Experience -->
+    <section id="ExperienceA" class="colorSetA">
+
         <div class="container">
 
-            
             <div class="textBox">
-                <h3>Experience</h3>
+                <h3>experience _</h3>
                 <h1 style="margin-bottom: 6px;">Event Management</h1>
                 <h6 style="margin-top: 0px;">@ Robinson Club Quinta Da Ria, Portugal</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, accusamus. Illo ad ut pariatur blanditiis porro! Voluptatem repellat excepturi blanditiis animi molestias repellendus cupiditate obcaecati exercitationem voluptatum hic ipsa molestiae, nihil laboriosam quam error, asperiores a ut esse commodi minima?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur esse cupiditate praesentium fugiat temporibus sapiente soluta quo amet, labore a delectus est, sunt architecto numquam facilis voluptatem accusantium dolore quae. Excepturi quam facilis quibusdam nemo ducimus voluptates, ex iusto eum.</p>
             </div>
 
             <div class="imgBox">
@@ -95,21 +116,59 @@
                     alt="">
             </div>
 
-        </div> 
-    </section>
+        </div>
 
-    <!-- Event -->
-    <section id="Event" class="colorSetB">
+        <div class="container">
+
+            <div class="imgBox">
+                <img 
+                    id="SalesImg"
+                    onclick="changeSalesImg()"
+                    src="./images/img_Audio_Sales_B.jpg"
+                    alt="">
+            </div>
+
+            <div class="textBox">
+                <h3>experience _</h3>
+                <h1 style="margin-bottom: 6px;">Pro Audio Sales & Marketing</h1>
+                <h6 style="margin-top: 0px;">@ Global Distribution GmbH, Münster // elevator.de</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quibusdam ullam voluptates adipisci soluta laborum, consequuntur provident voluptatum maxime incidunt. Odit atque saepe, reprehenderit eveniet eligendi obcaecati, enim perspiciatis porro, quia placeat vero voluptatem quidem optio impedit voluptas maxime culpa.</p>
+            </div>
+
+        </div>
+
         <div class="container">
 
             <div class="textBox">
-
+                <h3>experience _</h3>
+                <h1 style="margin-bottom: 6px;">Event Manager / Host & Artist</h1>
+                <h6 style="margin-top: 0px;">@ Piknic Elektronic, Osnabrück</h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio incidunt rerum dolor facere tenetur harum veritatis eveniet, in molestias soluta! Fuga non amet, tempore est quas earum illum nostrum repellendus?</p>
             </div>
 
             <div class="imgBox">
-                
+                <img src="./images/img_Event.webp" alt="">
             </div>
 
+        </div>
+
+    </section>
+
+    <section id="Footer" class="colorSetB">
+        <div class="container">
+            <div>
+                <h3>Navigation</h3>
+                <nav>
+                    <a href="">Portfolio</a>
+                    <a href="">Rental</a>
+                    <a href="">Events</a>
+                </nav>
+            </div>
+            <div>
+                Moritz Maximilian <br>
+                Eisenbahnstraße 14A <br>
+                49074 Osnabrück
+            </div>
         </div>
     </section>
 

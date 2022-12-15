@@ -23,6 +23,16 @@ function changeRobinsonImg() {
     }
 }
 
+function changeSalesImg()  {
+    var salesImg = document.getElementById("SalesImg");
+
+    if(salesImg.src.includes("img_Audio_Sales_A")) {
+        salesImg.src = "./images/img_Audio_Sales_B.jpg";
+    } else if(salesImg.src.includes("img_Audio_Sales_B")) {
+        salesImg.src = "./images/img_Audio_Sales_A.jpg";
+    }
+}
+
 /*-- ANIMATIONS --*/
 function fadeShort() {
     var fadeShort = document.querySelector(".fadeShort");
@@ -151,6 +161,12 @@ function openXing() {
 
 function openHome() {
     window.open("./index.html", "_self");
+}
+
+function openNavLink(clickedId) {
+    if(clickedId == "EventsLink") {
+        window.open("https://mrtzmxmln.github.io/risingufo");
+    } 
 }
 
 /*-- TEXT CHANGES --*/
