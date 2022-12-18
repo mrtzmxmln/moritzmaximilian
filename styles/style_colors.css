@@ -48,13 +48,13 @@
     color: var(--colorBLight);
 }
 
-.colorSetADark .navLink:hover
+.colorSetADark .navLink:hover,
 .colorSetADark button:hover {
     background-color: var(--colorALight);
     color: var(--colorADark);
 }
 
-.colorSetBDark .navLink:hover
+.colorSetBDark .navLink:hover,
 .colorSetBDark button:hover {
     background-color: var(--colorBLight);
     color: var(--colorBDark);

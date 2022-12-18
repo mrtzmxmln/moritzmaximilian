@@ -126,18 +126,29 @@ function tabHidden() {
 function darkMode() {
     var colorSetAItems = document.querySelectorAll(".colorSetA");
     var colorSetBItems = document.querySelectorAll(".colorSetB");
+    /* const colorSetADarkItems = document.querySelectorAll(".colorSetADark");
+    const colorSetBDarkItems = document.querySelectorAll(".colorSetBDark"); */
     var socialIcons = document.querySelectorAll(".socialIcon");
 
     for(var i = 0; i < colorSetAItems.length; i++) {
-        co
         colorSetAItems[i].classList.toggle("colorSetADark");
     }
 
     for(var i = 0; i < colorSetBItems.length; i++) {
         colorSetBItems[i].classList.toggle("colorSetBDark");
     }
+/*
+    for(var i = 0; i < colorSetADarkItems.length; i++) {
+        colorSetAItems[i].classList.toggle("colorSetA");
+        colorSetBItems[i].classList.toggle("colorSetADark");
+    }
 
+    for(var i = 0; i < colorSetBDarkItems.length; i++) {
+        colorSetAItems[i].classList.toggle("colorSetB");
+        colorSetBItems[i].classList.toggle("colorSetBDark");
+    }
 
+*/
 
     for(var i = 0; i < socialIcons.length; i++) {
         socialIcons[i].classList.toggle("socialIconDark")
