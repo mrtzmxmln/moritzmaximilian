@@ -36,26 +36,26 @@
     color: var(--colorBLight);
 }
 
-.colorSetA .navLink:hover {
+.colorSetA .navLink:hover,
+.colorSetA button:hover {
     background-color: var(--colorADark);
     color: var(--colorALight);
 }
 
-.colorSetB .navLink:hover {
+.colorSetB .navLink:hover,
+.colorSetB button:hover {
     background-color: var(--colorBDark);
     color: var(--colorBLight);
 }
 
-.colorSetADark .navLink:hover {
+.colorSetADark .navLink:hover
+.colorSetADark button:hover {
     background-color: var(--colorALight);
     color: var(--colorADark);
 }
 
-.colorSetBDark .navLink:hover {
+.colorSetBDark .navLink:hover
+.colorSetBDark button:hover {
     background-color: var(--colorBLight);
     color: var(--colorBDark);
-}
-
-#RentalIntro {
-    color: var(--colorLink)
 }

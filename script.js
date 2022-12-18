@@ -129,12 +129,15 @@ function darkMode() {
     var socialIcons = document.querySelectorAll(".socialIcon");
 
     for(var i = 0; i < colorSetAItems.length; i++) {
+        co
         colorSetAItems[i].classList.toggle("colorSetADark");
     }
 
     for(var i = 0; i < colorSetBItems.length; i++) {
         colorSetBItems[i].classList.toggle("colorSetBDark");
     }
+
+
 
     for(var i = 0; i < socialIcons.length; i++) {
         socialIcons[i].classList.toggle("socialIconDark")
