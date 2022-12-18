@@ -1,0 +1,40 @@
+#Footer .container {
+    justify-content: space-between;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+#Footer nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#Footer .socialBox {
+    height: auto;
+    width: auto;
+
+    display: flex;
+}
+
+.socialIconDark {
+    filter: invert(1);
+}
+
+#Footer img {
+    height: 30px;
+    width: 30px;
+
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s all ease;
+}
+
+#Footer img:hover {
+    border-bottom: 2px solid var(--colorADark);
+}

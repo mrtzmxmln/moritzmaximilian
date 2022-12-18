@@ -2,74 +2,97 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rental - Moritz Maximilian</title>
 
-    <link rel="stylesheet" href="./styles/style_rental.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style_colors.css">
     <link rel="stylesheet" href="./styles/style_font.css">
+    <link rel="stylesheet" href="./styles/style_navbar.css">
+    <link rel="stylesheet" href="./styles/style_rental.css">
+    <link rel="stylesheet" href="./styles/style_footer.css">
+
 </head>
 
 <body>
-    <div class="loader"></div>
+    <!-- Loader -->
 
-    <div class="navBar"></div>
-
-    <section id="main" class="colorSetA">
+    <!-- NavBar-->
+    <div id="navigation" class="navbar colorSetB">
         <div class="container">
+
+            <div class="navLogo">
+                Moritz Maximilian
+                <!-- <img src="./logo.ico" alt=""> -->
+            </div>
+
+            <nav>
+
+                <div 
+                    id="PortfolioLink" 
+                    class="navLink"
+                    onclick="openNavLink(this.id)">
+                    Portfolio
+                </div>
+
+                <div
+                    id="RentalLink"
+                    class="navLink"
+                    onclick="openNavLink(this.id)">
+                    Rental
+                </div>
+
+                <div
+                    id="EventsLink"
+                    class="navLink"
+                    onclick="openNavLink(this.id)">
+                    Events
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- Intro -->
+    <section id="RentalIntro" class="colorSetA">
+        <div class="container">
+
             <div class="textBox">
-                <h1>Audio, DJ & Visuals</h1>
-                <h3>Verleih</h3>
-                <p>Mit unserer Technik erzeugst Du den passenden Vibe auf deinem Event. In unserem Portfolio findest du alles was Du brauchst um deine Veranstaltung professionell zu ergänzen und somit emotional einzigartige Momente zu gestalten.</p>
-            </div>
-            <img src="./images/rental/rental_main.webp" alt="">
-        </div>
-    </section>
-
-    <section id="info" class="colorSetB">
-        <div class="container">
-            <h3>Ablauf</h3>
-            <p>Dein Equipment kannst Du ganz einfach online buchen und am Veranstaltungstag bei uns abholen. Alternaitv bieten wir eine Anlieferung gegen Kostenübernahme an. Bei Abholung oder Lieferung der Technik unterzeichnest Du als Kunde gemeinsam mit uns einen Leihvertrag. Nach dem Event kannst Du uns die Technik zurück bringen oder wir holen Sie ab. Zahlungen akzeptieren wir ausschließlich bargeldlos und im Voraus.</p>
-            <h3>Service</h3>
-            <p>Wenn Du ein größeres Setup planst erhältst Du auf Anfrage ein individuelles Angebot von uns. Bei Anlieferung helfen wir dir beim Aufbau und geben dir eine kurze Einweisung in das Equipment.</p>
-        
-        </div>
-    </section>
-
-    <section id="maker" class="colorSetA">
-        <div class="container">
-            <h3>Hersteller</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur similique eum quae impedit, iusto fuga alias provident quibusdam aliquam labore accusantium quia tempora illo nostrum porro quis enim ratione sed, dolorem molestiae facilis laudantium, quo tempore odit. Necessitatibus, laboriosam perspiciatis.</p>
-        </div>
-    </section>
-
-    <section id="partner">
-        <div class="container">
-            <h3>Partner</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam soluta pariatur maxime nesciunt iure temporibus quod eaque quo nulla? At blanditiis nostrum veritatis animi similique error vero quaerat sapiente minus asperiores in ad aspernatur, qui quos et dolorem necessitatibus officiis eligendi illum unde illo nobis odit dignissimos delectus? Enim incidunt perspiciatis eius explicabo laborum illo vel quod veniam porro ut.</p>
-        </div>
-    </section>
-
-    <section id="footer" class="colorSetA">
-        <div class="container flexRow spaceBetween">
-            <div class="flexColumn">
-                <h4>Sitemap</h4>
-                <a href="#main">Verleih</a>
-                <a href="#info">Ablauf</a>
-                <a href="#service">Service</a>
-                <a href="#maker">Hersteller</a>
-                <a href="#partner">Partner</a>
+                <h2>rent some neat stuff</h2>
+                <h4>- from High End Professional DJ Equipment over large Venue PA Systems up to custom Light Systems & Designs.</h4>
             </div>
 
-            <div class="flexColumn">
-                <h4>Impressum</h4>
-                Moritz Meyer <br>
-                Eisenbahnstraße 14A <br>
-                49074 Osnabrück <br>
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <section id="Footer" class="colorSetB">
+        <div class="container">
+            <div>
+                <nav>
+                    <div class="navLink">Imprint</div>
+                    <div class="navLink">Contact</div>
+                    <div class="navLink">Privacy Policy</div>
+                    <div class="navLink">AGB</div>
+                </nav>
+            </div>
+            <div class="socialBox">
+                <img class="socialIcon" onclick="darkMode()" src="./images/icons/sun.svg" alt="">
+                <img class="socialIcon" onclick="openSoundCloud()" src="./images/icons/soundcloud.svg" alt="">
+                <img class="socialIcon" onclick="openInstagram()" src="./images/icons/instagram.svg" alt="">
+                <img class="socialIcon" onclick="openFacebook()" src="./images/icons/facebook.svg" alt="">
+                <img class="socialIcon" onclick="openGitHub()" src="./images/icons/github.svg" alt="">
             </div>
         </div>
     </section>
+
+    <script src="./script.js"></script>
+    <script src="./links.js"></script>
 </body>
 
 </html>

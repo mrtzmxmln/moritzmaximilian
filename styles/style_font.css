@@ -14,3 +14,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Quicksand;
     font-weight: 500;
 }
+
+h1 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+}

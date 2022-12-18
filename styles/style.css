@@ -1,25 +1,16 @@
 /*-- ELEMENTS --*/
 body {
     margin: 0;
-    background-color: var(--color_B);
+    background-color: var(--colorALight);
 }
 
 section {
     width: 100%;
-    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-img {
-    border-radius: 20px;
-}
-
-p {
-    text-align: justify;
 }
 
 /*-- GENERAL STYLE --*/
@@ -30,13 +21,13 @@ p {
 
 section .container {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 60px;
+    justify-content: center;
+    gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,8 +38,8 @@ section .container {
 }
 
 .textBox {
-    min-width: 400px;
-    max-width: 600px;
+    min-width: 300px;
+    max-width: 450px;
 
     display: flex;
     flex-direction: column;
@@ -61,6 +52,7 @@ section .container {
 }
 
 .imgBox {
+    min-width: 320px;
     max-width: 400px;
 }
 
@@ -84,19 +76,4 @@ section .container {
 
 .spaceBetween {
     justify-content: space-between;
-}
-
-.footerBox {
-    width: 100%;
-}
-
-/*-- IDs --*/
-#Footer {
-    min-height: 0;
-    height: auto;
-}
-
-#Footer .container {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }

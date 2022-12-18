@@ -1,96 +1,18 @@
-/*-- VARIABLES --*/
-:root {
-    --color_A: #000000;
-    --color_B: #ffffff;
-    --color_AccentA: #FF0800;
-    --color_AccentB: #F28F3B;
-    --color_Link: #245EFF;
+h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
 }
 
-.colorSetA {
-    background-color: var(--color_A);
-    color: var(--color_B);
+#RentalIntro {
+    height: 90vh;
+
+    background-image: url("../images/rental/rental_main.webp");
+    background-size: cover;
+    background-position: center;
 }
 
-.colorSetB {
-    background-color: var(--color_B);
-    color: var(--color_A);
-}
-
-.colorAccentA {
-    color: var(--color_AccentA);
-}
-
-.colorAccentB {
-    color: var(--color_AccentB);
-}
-
-/*-- ELEMENTS --*/
-body {
-    margin: 0;
-}
-
-section {
-    width: 100%;
-    min-height: fit-content;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    border-radius: 20px;
-}
-
-p {
-    text-align: justify;
-}
-
-/*-- HEADINGS --*/
-
-/*-- GENERAL STYLE --*/
-.container {
-    max-width: 1080px;
-    width: 90%;
-
-    padding-top: 40px;
-    padding-bottom: 80px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.textBox {
-    display: flex;
-    flex-direction: column;
-}
-
-.flexRow {
-    display: flex;
-    flex-direction: row;
-}
-
-.flexColumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.fullWidth {
-    width: 100%;
-}
-
-.spaceBetween {
-    justify-content: space-between;
-}
-
-.footerBox {
-    width: 100%;
-}
-/*-- IDs --*/
-#footer {
-    min-height: 0;
-    height: auto;
+#RentalIntro .textBox h2,
+#RentalIntro .textBox h4 {
+    text-transform: uppercase;
+    text-shadow: black 0px 0px 5px;
 }

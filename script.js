@@ -17,19 +17,19 @@ function changeRobinsonImg() {
     var robinsonImg = document.getElementById("RobinsonImg");
 
     if(robinsonImg.src.includes("img_Robinson_A")) {
-        robinsonImg.src = "./images/img_Robinson_B.JPG";
+        robinsonImg.src = "./images/img_Robinson_B.webp";
     } else if(robinsonImg.src.includes("img_Robinson_B")) {
-        robinsonImg.src = "./images/img_Robinson_A.jpeg";
+        robinsonImg.src = "./images/img_Robinson_A.webp";
     }
 }
 
-function changeSalesImg()  {
-    var salesImg = document.getElementById("SalesImg");
+function changeEventImg() {
+    var eventImg = document.getElementById("EventImg");
 
-    if(salesImg.src.includes("img_Audio_Sales_A")) {
-        salesImg.src = "./images/img_Audio_Sales_B.jpg";
-    } else if(salesImg.src.includes("img_Audio_Sales_B")) {
-        salesImg.src = "./images/img_Audio_Sales_A.jpg";
+    if(eventImg.src.includes("img_Event_A")) {
+        eventImg.src = "./images/img_Event_B.webp";
+    } else if(eventImg.src.includes("img_Event_B")) {
+        eventImg.src = "./images/img_Event_A.webp";
     }
 }
 
@@ -110,65 +110,6 @@ function scrollArtist() {
     artist.scrollIntoView({behavior: "smooth"});
 }
 
-/*-- LINKS --*/
-function openSoundCloud() {
-    window.open("https://soundcloud.com/mrtzmxmln");
-}
-
-function openInstagram() {
-    window.open("https://www.instagram.com");
-}
-
-function openFacebook() {
-    window.open("https://facebook.com/mrtzmxmln")
-}
-
-function openResident() {
-    window.open("https://ra.co/dj/moritzmaximilian");
-}
-
-function openPiknic() {
-    window.open("http://mrtzmxmln.github.io/risingufo");
-}
-
-function openAcademy() {
-    window.open("https://www.macromedia-ausbildung.de")
-}
-
-function openProject() {
-    window.open("https://www.facebook.com/querdenkerduell");
-}
-
-function openUfo() {
-    window.open("https://mrtzmxmln.github.io/risingufo")
-}
-
-function openLeni() {
-    window.open("https://homebyleni.de");
-}
-
-function sendMail() {
-    window.open("mailto:moritzmaximilian@gmx.net")
-}
-
-function openLinkedIn() {
-    window.open("https://www.linkedin.com/in/moritz-meyer-77562a231/");
-}
-
-function openXing() {
-    window.open("https://www.xing.com/profile/Moritz_Meyer65/cv");
-}
-
-function openHome() {
-    window.open("./index.html", "_self");
-}
-
-function openNavLink(clickedId) {
-    if(clickedId == "EventsLink") {
-        window.open("https://mrtzmxmln.github.io/risingufo");
-    } 
-}
-
 /*-- TEXT CHANGES --*/
 function tabHidden() {
     var attentionMessage = "Free Cookies! 🍪";
@@ -180,6 +121,26 @@ function tabHidden() {
     } else if(pageActive) {
         document.title = pageTitle;
     }
+}
+
+function darkMode() {
+    var colorSetAItems = document.querySelectorAll(".colorSetA");
+    var colorSetBItems = document.querySelectorAll(".colorSetB");
+    var socialIcons = document.querySelectorAll(".socialIcon");
+
+    for(var i = 0; i < colorSetAItems.length; i++) {
+        colorSetAItems[i].classList.toggle("colorSetADark");
+    }
+
+    for(var i = 0; i < colorSetBItems.length; i++) {
+        colorSetBItems[i].classList.toggle("colorSetBDark");
+    }
+
+    for(var i = 0; i < socialIcons.length; i++) {
+        socialIcons[i].classList.toggle("socialIconDark")
+    }
+
+
 }
 
 /*-- execute Script --*/

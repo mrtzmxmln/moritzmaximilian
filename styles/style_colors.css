@@ -1,34 +1,61 @@
 :root {
 
-    /*
-    --color_A: grey;
-    --color_B: #ffffff;
-    --color_AccentA: #FF0800;
-    --color_AccentB: #F28F3B;
-    --color_Link: #245EFF;
-    */
-    
     --color_A: #252422;
     --color_B: #E0DFD5;
     --color_AccentA: #ED6A5A;
     --color_AccentB: #0094C6;
     --color_Link: #B497D6;
+
+    
+    --colorADark: #000000;
+    --colorALight: #E5E5E5;
+
+    --colorBDark: #14213D;
+    --colorBLight: #FFFFFF;
+
+    --colorLink: #FCA311;
 }
 
 .colorSetA {
-    background-color: var(--color_A);
-    color: var(--color_B);
+    background-color: var(--colorALight);
+    color: var(--colorADark);
 }
 
 .colorSetB {
-    background-color: var(--color_B);
-    color: var(--color_A);
+    background-color: var(--colorBLight);
+    color: var(--colorBDark);
 }
 
-.colorAccentA {
-    color: var(--color_AccentA);
+.colorSetADark {
+    background-color: var(--colorADark);
+    color: var(--colorALight);
 }
 
-.colorAccentB {
-    color: var(--color_AccentB);
+.colorSetBDark {
+    background-color: var(--colorBDark);
+    color: var(--colorBLight);
+}
+
+.colorSetA .navLink:hover {
+    background-color: var(--colorADark);
+    color: var(--colorALight);
+}
+
+.colorSetB .navLink:hover {
+    background-color: var(--colorBDark);
+    color: var(--colorBLight);
+}
+
+.colorSetADark .navLink:hover {
+    background-color: var(--colorALight);
+    color: var(--colorADark);
+}
+
+.colorSetBDark .navLink:hover {
+    background-color: var(--colorBLight);
+    color: var(--colorBDark);
+}
+
+#RentalIntro {
+    color: var(--colorLink)
 }
