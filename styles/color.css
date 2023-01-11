@@ -1,0 +1,12 @@
+:root {
+    --cBgLight: #FFFAF1;
+    --cTextLight: #000000;
+
+    --cBgDark: #2F2F2F;
+    --cTextDark: #FFFAF1;
+}
+
+body {
+    background-color: var(--cBgLight);
+    color: var(--cTextLight);
+}
