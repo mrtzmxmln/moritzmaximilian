@@ -25,6 +25,7 @@ body {
 .navBox {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .contentBox {
@@ -121,8 +122,4 @@ p {
 
 .topElement {
     padding-top: 40px;
-}
-
-.bottomElement {
-    padding-bottom: 40px;
 }

@@ -1,0 +1,26 @@
+.footer {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Imprint {
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
+}
+
+.imprintText {
+    padding: 20px;
+    border-radius: 20px;
+}

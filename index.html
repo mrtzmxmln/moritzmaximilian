@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/color.css">
     <link rel="stylesheet" href="./styles/text.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
@@ -272,25 +273,26 @@
 
     </div>
 
-    <div class="container">
-        <div id="navImprint" class="navBox">
-            <h2 class="plus">+</h2>
-            <h2>Imprint</h2>
-        </div>
+    <div class="container footer">
+
+        <span class="spanLink" onclick="toggleImprint()">Imprint</span>
+        <span class="spanLink" onclick="togglePolicy()">Privacy Policy</span>
+
     </div>
 
-    <div class="container bottomElement">
+    <div id="Imprint" class="hidden dispNone" onclick="toggleImprint()">
 
-        <div id="Imprint" class="contentBox hidden dispNone" style="width: 100%;">
-
+        <div class="imprintText" onclick="">
             <h4>Moritz Maximilian</h4>
             <br>
             <h4>Moritz Meyer</h4>
             <h4>Eisenbahnstraße 14A</h4>
             <h4>49074 Osnabrück</h4>
             <br>
-            <h4>moritzmaximilian@gmx.net</h4>
+            <h4><a href="mailto:moritzmaximilian@gmx.net">moritzmaximilian@gmx.net</a></h4>
         </div>
+
+
 
     </div>
 

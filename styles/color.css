@@ -6,7 +6,23 @@
     --cTextDark: #FFFAF1;
 }
 
-body {
+html {
     background-color: var(--cBgLight);
     color: var(--cTextLight);
+}
+
+a {
+    color: var(--cTextLight);
+}
+
+.footer {
+    background-color: var(--cBgLight);
+}
+
+#Imprint {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.imprintText {
+    background-color: var(--cBgLight);
 }
