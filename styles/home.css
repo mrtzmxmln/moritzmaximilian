@@ -19,13 +19,27 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1080px;
+    max-width: 1100px;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .navBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    max-width: 300px;
 }
 
 .contentBox {
@@ -42,7 +56,6 @@ body {
     width: 100%;
 
     margin-top: 20px;
-    margin-bottom: 20px;
 
     display: flex;
     flex-direction: row;
@@ -90,36 +103,9 @@ body {
 
 .plus {
     transform-origin: center;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .spin {
     transform: rotate(90deg);
-}
-
-h2 {
-    padding-right: 8px;
-}
-
-h3 {
-    margin: 0;
-}
-
-h4 {
-    font-weight: normal;
-    margin: 0;
-}
-
-h5 {
-    margin: 0;
-    font-weight: normal;
-}
-
-p {
-    text-align: justify;
-    text-transform: lowercase;
-}
-
-.topElement {
-    padding-top: 40px;
 }

@@ -13,3 +13,39 @@ html {
     border-bottom: 1px solid;
     cursor: pointer;
 }
+
+h1 {
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+h2 {
+    margin: 0;
+
+    padding-right: 8px;
+
+    font-size: 15px;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+    text-transform: lowercase;
+}
