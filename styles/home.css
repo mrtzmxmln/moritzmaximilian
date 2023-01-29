@@ -22,16 +22,6 @@ body {
     max-width: 1100px;
 }
 
-.header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
 .navBox {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -108,4 +98,14 @@ body {
 
 .spin {
     transform: rotate(90deg);
+}
+
+.seperator {
+    height: 1px;
+    width: 100%;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color: black;
 }

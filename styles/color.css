@@ -15,6 +15,14 @@ a {
     color: var(--cTextLight);
 }
 
+.loaderDiv {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header {
+    background-color: var(--cBgLight);
+}
+
 .footer {
     background-color: var(--cBgLight);
 }

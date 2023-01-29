@@ -8,13 +8,19 @@
 
     <title>Moritz Maximilian</title>
 
+    <link rel="stylesheet" href="./styles/loader.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/color.css">
     <link rel="stylesheet" href="./styles/text.css">
     <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
-<body>
+<body onload="hideLoader()">
+
+    <div id="Loader" class="loaderDiv">
+        <div class="loader"></div>
+    </div>
 
     <!-- heading -->
     <div class="container header">
@@ -22,7 +28,7 @@
         <span id="dateTime"></span>
     </div>
 
-    <div class="container">
+    <div class="container topElement">
         <div id="navEvents" class="navBox">
             <h2 class="plus">></h2>
             <h2>Events</h2>
@@ -136,6 +142,10 @@
             </div>
 
         </div>
+
+        <!--
+        <div class="seperator"></div>
+        -->
 
         <div class="content">
 
@@ -294,8 +304,11 @@
 
     <div class="container footer">
 
-        <span class="spanLink" onclick="toggleImprint()">Imprint</span>
-        <span class="spanLink" onclick="togglePolicy()">Privacy Policy</span>
+        <div>
+            <span class="spanLink" onclick="toggleImprint()">Imprint</span>
+            <span class="spanLink" onclick="togglePolicy()">Privacy Policy</span>
+        </div>
+        <span>Copyright &#169 2023 </span>
 
     </div>
 

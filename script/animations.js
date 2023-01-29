@@ -55,3 +55,21 @@ function toggleImprint() {
     }
 
 }
+
+function hideLoader() {
+
+    var loader = document.getElementById("Loader");
+
+    setTimeout(() => {
+
+        loader.classList.toggle("hiddenLoader");
+
+        setTimeout(() => {
+
+            loader.classList.toggle("dispNone");
+
+        }, 1010);
+
+    }, 1000);
+
+}
