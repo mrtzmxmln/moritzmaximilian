@@ -31,7 +31,6 @@ for (var i = 0; i < navBoxes.length; i++) {
     }(i));
 }
 
-
 function toggleImprint() {
 
     var imprint = document.getElementById("Imprint");
@@ -55,5 +54,11 @@ function hideLoader() {
         }, 1010);
 
     }, 1000);
+
+}
+
+function reloadPage() {
+
+    location.reload();
 
 }
