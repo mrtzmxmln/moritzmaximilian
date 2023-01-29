@@ -94,6 +94,16 @@ body {
 
 }
 
+.linkBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linkBox img {
+    height: 25px;
+    width: 25px;
+}
+
 .hidden {
     opacity: 0;
     max-height: 0px;
