@@ -36,23 +36,7 @@ function toggleImprint() {
 
     var imprint = document.getElementById("Imprint");
 
-    if (imprint.classList.contains("hidden")) {
-
-        imprint.classList.toggle("dispNone");
-
-        setTimeout(() => {
-            imprint.classList.toggle("hidden");
-        }, 10);
-
-    } else {
-
-        imprint.classList.toggle("hidden");
-
-        setTimeout(() => {
-            imprint.classList.toggle("dispNone");
-        }, 1020);
-
-    }
+    imprint.classList.toggle("hideImprint");
 
 }
 

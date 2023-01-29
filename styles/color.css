@@ -28,9 +28,5 @@ a {
 }
 
 #Imprint {
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.imprintText {
     background-color: var(--cBgLight);
 }
