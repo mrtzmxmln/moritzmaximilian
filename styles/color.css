@@ -2,6 +2,9 @@
     --cBgLight: #FFFAF1;
     --cTextLight: #000000;
 
+    --cBgLightContrast: #2F2F2F;
+    --cTextLightContrast: #FFFFFF;
+
     --cBgDark: #2F2F2F;
     --cTextDark: #FFFAF1;
 }
@@ -19,12 +22,21 @@ a {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.header {
-    background-color: var(--cBgLight);
+.headerDiv {
+    /* background-color: var(--cBgLightContrast); */
+    background-color: rgba(47, 47, 47, 0.8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: var(--cTextLightContrast);
 }
 
-.footer {
-    background-color: var(--cBgLight);
+
+.footerDiv {
+    /* background-color: var(--cBgLightContrast); */
+    background-color: rgba(47, 47, 47, 0.8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: var(--cTextLightContrast);
 }
 
 #Imprint {
