@@ -41,4 +41,5 @@ a {
 
 #Imprint {
     background-color: var(--cBgLight);
+    color: var(--cTextLight);
 }
