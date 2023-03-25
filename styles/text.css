@@ -31,6 +31,11 @@ h2 {
     font-weight: normal;
 }
 
+.navBox h2 {
+    font-size: 24px;
+    text-transform: lowercase;
+}
+
 h3 {
     margin: 0;
 }
