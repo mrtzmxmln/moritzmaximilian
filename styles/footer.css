@@ -22,17 +22,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer span {
     margin-right: 6px;
 }
 
+.socialBox img {
+    height: 24px;
+    width: 24px;
+
+    filter: invert(1);
+
+    cursor: pointer;
+}
+
 #Imprint {
     padding: 20px;
 
     position: fixed;
-    bottom: 70px;
+    bottom: 80px;
 
     display: flex;
     flex-direction: column;
