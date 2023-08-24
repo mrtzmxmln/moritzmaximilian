@@ -9,3 +9,7 @@ function openGitHub() {
 function openLinkedIn() {
     window.open('https://linkedin.com/in/moritzmaximilian', '_blank');
 }
+
+function openSoundCloud() {
+    window.open('https://soundcloud.com/mrtzmxmln');
+}
